@@ -1,13 +1,44 @@
 /*Will able to everything as a default*/
-body{
-
-}
 
 /*IDs in css begin with a hashtag*/
-#idname{
-
+#c1header{
+    Width: 500px;
+    height: 250px;
+    background-color: gray
 }
 
+#c1footer{
+    Width: 500px;
+    height: 250px;
+    background-color: #3700ff
+}
+
+#sec1{
+    background-color: #f06000;
+    Width: 500px;
+    height: 100px;
+}
+
+#sec2{
+    background-color: #f0ff44; 
+    Width: 500px;
+    height: 100px;
+}
+
+#sec3{
+    background-color: #ff0000;
+    Width: 500px;
+    height: 100px;
+}
+
+/*CLASSES in css begin with a dot*/
+
+.secA{
+    Width: 250px;
+    height: 100px;
+}
+ 
+}
 
 /*CLASSES in css begin with a dot*/
 .classname{
