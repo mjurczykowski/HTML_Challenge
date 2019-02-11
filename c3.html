@@ -8,24 +8,67 @@
   <style>
   article{
    background-color: honeydew;
-   color:forestgreen;
-   margin: 0px;
+   color:rgb(0, 29, 2);
+   margin: 50px;
    width: 400px;
    height: 500px;
-   border-radius: 4px;
+   border-radius: 20px;
    border: 8px;
    padding: 8px;
    outline-color: black;
+   margin: 100px auto;
+   font-weight: 300;
+   font-style: italic;
+   outline-width: 6px;
   }
+  .imgbox 
+  {
+    display: grid;
+    height: 100%;
+  }
+  .center-fit {
+    max-width: 75%;
+    max-height: 75%;
+    margin: auto;
+   }
+  
   </style>
   <body>
-    
     <article>
      
       <h1>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia cupiditate tenetur, ullam expedita exercitationem tempore veniam. Nostrum harum beatae repudiandae ea architecto ex, blanditiis cum in aperiam quibusdam eveniet dolor?
+       <center>
+        The Lorax
+       </center>
+
       </h1>
+      <div class="imgbox">
+        <img class="center-fit" src='Lorax.jpg'>
+    </div>
     </article>
-  </body>
+    <article>
+     
+        <h1>
+         <center>
+          You like jazz?
+         </center>
   
+        </h1>
+        <div class="imgbox">
+          <img class="center-fit" src='Bee.jpg'>
+      </div>
+      </article>
+      <article>
+     
+          <h1> 
+           <center>
+            Forklift operators prevent ISIS
+           </center>
+    
+          </h1>
+          <div class="imgbox">
+            <img class="center-fit" src='Forklift.jpg'>
+        </div>
+        </article>
+  </body>
 </html>
